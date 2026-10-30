@@ -1,0 +1,31 @@
+# Временные файлы 1С
+*.tmp
+*.log
+*.cache
+*.1sb
+*.bak
+*.1CD
+*.1CL
+*.cfl
+*.lgf
+*.lgp
+*.lgx
+*.lgd
+
+
+# Файлы выгрузки 
+ConfigDumpInfo.xml
+*.dt
+*.cf
+*.cfu
+*.cfe
+*.epf
+*.erf
+
+
+
+
+# Системные файлы Windows
+Thumbs.db
+desktop.ini
+"*.cf" 

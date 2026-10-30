@@ -27,7 +27,7 @@
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="Контрагенты" id="10">
-			<DataPath>Объект.Контрагенты</DataPath>
+			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КонтрагентыКонтекстноеМеню" id="11"/>
@@ -75,7 +75,7 @@
 					<ExtendedTooltip name="ПереченьТоваровНомерСтрокиРасширеннаяПодсказка" id="28"/>
 				</LabelField>
 				<InputField name="ПереченьТоваровТовары" id="29">
-					<DataPath>Объект.ПереченьТоваров.Товары</DataPath>
+					<DataPath>Объект.ПереченьТоваров.Товар</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПереченьТоваровТоварыКонтекстноеМеню" id="30"/>
@@ -123,4 +123,13 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>

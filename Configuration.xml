@@ -250,7 +250,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>СкладГлавный</Subsystem>
+			<Subsystem>МиниСклад</Subsystem>
 			<Subsystem>Бухгалтерия</Subsystem>
 			<Subsystem>РасчетЗарплаты</Subsystem>
 			<Subsystem>УчетМатериалов</Subsystem>
@@ -264,8 +264,11 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Товары</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Report>ОборотыПоТоварам</Report>
+			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

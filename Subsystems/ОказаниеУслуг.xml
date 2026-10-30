@@ -23,6 +23,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Товары</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Реализация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОборотыПоТоварам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
