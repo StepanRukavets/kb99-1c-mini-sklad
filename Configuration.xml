@@ -267,8 +267,14 @@
 			<Catalog>Сотрудники</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Enum>ВидыТоваров</Enum>
 			<Report>ОборотыПоТоварам</Report>
+			<Report>РеестрДокументовОказаниеРеализации</Report>
+			<Report>РейтингРеалиазиации</Report>
+			<Report>ОстаткиНаДату</Report>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
+			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
