@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -80,6 +83,13 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПереченьТоваровТоварыКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ПереченьТоваровТоварыРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ПереченьТоваровНаборСвойств" id="44">
+					<DataPath>Объект.ПереченьТоваров.НаборСвойств</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПереченьТоваровНаборСвойствКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПереченьТоваровНаборСвойствРасширеннаяПодсказка" id="46"/>
 				</InputField>
 				<InputField name="ПереченьТоваровСтоимость" id="41">
 					<DataPath>Объект.ПереченьТоваров.Стоимость</DataPath>

@@ -41,7 +41,15 @@
 			<DataPath>Объект.Товары</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ТоварыКонтекстноеМеню" id="14"/>
-			<AutoCommandBar name="ТоварыКоманднаяПанель" id="15"/>
+			<AutoCommandBar name="ТоварыКоманднаяПанель" id="15">
+				<ChildItems>
+					<Button name="ТоварыПодбор" id="41">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Подбор</CommandName>
+						<ExtendedTooltip name="ТоварыПодборРасширеннаяПодсказка" id="42"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="16"/>
 			<SearchStringAddition name="ТоварыСтрокаПоиска" id="17">
 				<AdditionSource>
@@ -67,6 +75,9 @@
 				<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="24"/>
 				<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="25"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="ChoiceProcessing">ТоварыОбработкаВыбора</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="ТоварыНомерСтроки" id="26">
 					<DataPath>Объект.Товары.LineNumber</DataPath>
@@ -80,6 +91,13 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ТоварыНаборСвойсв" id="43">
+					<DataPath>Объект.Товары.НаборСвойсв</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТоварыНаборСвойсвКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ТоварыНаборСвойсвРасширеннаяПодсказка" id="45"/>
 				</InputField>
 				<InputField name="ТоварыКоличество" id="32">
 					<DataPath>Объект.Товары.Количество</DataPath>
@@ -123,6 +141,23 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Подбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подбор</Action>
+		</Command>
+	</Commands>
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>

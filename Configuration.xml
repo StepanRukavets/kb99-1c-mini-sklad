@@ -265,6 +265,8 @@
 			<Catalog>Товары</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>ВариантыТоваров</Catalog>
+			<Catalog>ДополнительныеСвойстваТоваров</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Enum>ВидыТоваров</Enum>
@@ -272,9 +274,11 @@
 			<Report>РеестрДокументовОказаниеРеализации</Report>
 			<Report>РейтингРеалиазиации</Report>
 			<Report>ОстаткиНаДату</Report>
+			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<ChartOfCharacteristicTypes>СвойстваТоваров</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
