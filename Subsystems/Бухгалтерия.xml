@@ -29,6 +29,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Продажи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.РейтингРеалиазиации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиНаДату</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводНачальныхОстатковТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.РасчетЗарплаты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

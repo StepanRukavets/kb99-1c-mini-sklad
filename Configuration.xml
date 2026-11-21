@@ -260,7 +260,19 @@
 			<CommonPicture>Материалы</CommonPicture>
 			<CommonPicture>Услуги</CommonPicture>
 			<CommonPicture>Предприятие</CommonPicture>
+			<Role>Администратор</Role>
+			<Role>Директор</Role>
+			<Role>Мастер</Role>
+			<Role>Расчетчик</Role>
+			<Role>Бухгалтер</Role>
 			<CommonModule>РаботаСДокументами</CommonModule>
+			<CommonModule>РегламентныеПроцедуры</CommonModule>
+			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
+			<ScheduledJob>СлияниеИндексов</ScheduledJob>
+			<FunctionalOption>БухгалтерскийУчет</FunctionalOption>
+			<FunctionalOption>РасчетЗарплаты</FunctionalOption>
+			<Constant>БухгалтерскийУчет</Constant>
+			<Constant>РасчетЗарплаты</Constant>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Товары</Catalog>
 			<Catalog>Склады</Catalog>
@@ -269,6 +281,7 @@
 			<Catalog>ДополнительныеСвойстваТоваров</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Document>ВводНачальныхОстатковТоваров</Document>
 			<Enum>ВидыТоваров</Enum>
 			<Report>ОборотыПоТоварам</Report>
 			<Report>РеестрДокументовОказаниеРеализации</Report>
